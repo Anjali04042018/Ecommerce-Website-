@@ -60,11 +60,15 @@
 
                 <tr>
                   <th>Category Name</th>
+                  <th>Edit</th>
                   <th>Delete</th>
                 </tr>
                 @foreach($data as $data)
                 <tr>
                   <td>{{$data -> category_name}}</td>
+                  <td>
+                    <a href="{{url('edit_category',$data->id)}}" class="btn btn-success">Edit</a>
+                  </td>
                   <td><a href="{{url('delete_category',$data->id)}}" class="btn btn-danger" onclick="confirmation(event)" >Delete</a></td>
                 </tr>
                 @endforeach
