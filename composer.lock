@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18bdef839cca2ac6166d583cbe210268",
+    "content-hash": "9d65b113a137a6d94413034b23b7b5cc",
     "packages": [
         {
             "name": "brick/math",
@@ -2743,22 +2743,22 @@
         },
         {
             "name": "php-flasher/flasher-toastr-laravel",
-            "version": "v1.15.14",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-flasher/flasher-toastr-laravel.git",
-                "reference": "fe24ad128ac4a42adb5f7b2cd54e349c1b0235c4"
+                "reference": "62b828b643132c1b6ec8ea7426254a22846fce84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-flasher/flasher-toastr-laravel/zipball/fe24ad128ac4a42adb5f7b2cd54e349c1b0235c4",
-                "reference": "fe24ad128ac4a42adb5f7b2cd54e349c1b0235c4",
+                "url": "https://api.github.com/repos/php-flasher/flasher-toastr-laravel/zipball/62b828b643132c1b6ec8ea7426254a22846fce84",
+                "reference": "62b828b643132c1b6ec8ea7426254a22846fce84",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3",
-                "php-flasher/flasher-laravel": "^1.15.14",
-                "php-flasher/flasher-toastr": "^1.15.14"
+                "php-flasher/flasher-laravel": "^1.13",
+                "php-flasher/flasher-toastr": "^1.13"
             },
             "type": "library",
             "extra": {
@@ -2814,7 +2814,7 @@
                 "yoeunes"
             ],
             "support": {
-                "source": "https://github.com/php-flasher/flasher-toastr-laravel/tree/v1.15.14"
+                "source": "https://github.com/php-flasher/flasher-toastr-laravel/tree/v1.14.0"
             },
             "funding": [
                 {
@@ -2838,7 +2838,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-03-16T15:25:14+00:00"
+            "time": "2023-01-21T15:16:28+00:00"
         },
         {
             "name": "php-flasher/flasher-toastr-symfony",
@@ -6753,16 +6753,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.36.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "f184d3d687155d06bc8cb9ff6dc48596a138460c"
+                "reference": "5d385f2e698f0f774cdead82aff5d989fb95309b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/f184d3d687155d06bc8cb9ff6dc48596a138460c",
-                "reference": "f184d3d687155d06bc8cb9ff6dc48596a138460c",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/5d385f2e698f0f774cdead82aff5d989fb95309b",
+                "reference": "5d385f2e698f0f774cdead82aff5d989fb95309b",
                 "shasum": ""
             },
             "require": {
@@ -6812,7 +6812,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2024-10-10T13:26:02+00:00"
+            "time": "2024-10-21T17:13:38+00:00"
         },
         {
             "name": "mockery/mockery",
