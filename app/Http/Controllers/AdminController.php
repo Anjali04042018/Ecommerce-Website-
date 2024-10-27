@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Category;
+use App\Models\Product;
+
 class AdminController extends Controller
 {
     public function view_category(){
@@ -46,5 +48,28 @@ class AdminController extends Controller
 
         return redirect('/view_category');
 
+    }
+
+    public function add_product(){
+        $category = Category::all();
+        return view('admin.add_product',compact('category'));
+    }
+
+    public function upload_product(Request $req){
+        $data = new Product;
+        $data->title = $req -> title;
+        $data ->description = $req -> description;
+        $data -> price = $req -> price;
+        $data -> quantity = $req -> qty;
+        $data -> category = $req -> category;
+
+        $image = $req->image;
+        if($image){
+            $imagename = time().'.'.$image->getClientOriginalExtension();
+            $req ->image ->move('products',$imagename );
+            $data ->image = $imagename;
+        }
+        $data -> save();
+        return redirect()->back()->with('success', 'Product added successfully');
     }
 }
