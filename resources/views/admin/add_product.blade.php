@@ -8,6 +8,8 @@
             justify-content:center;
             align-items:center;
             margin-top:60px;
+            border: 1px solid gray;
+            padding:20px
         }
         h1{
            color:white;
