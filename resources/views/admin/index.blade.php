@@ -2,6 +2,13 @@
 <html>
   <head> 
     @include('admin.css')
+
+<style>
+  h1{
+    color:white;
+    text-align:center;
+  }
+</style>
   </head>
   <body>
    <!-- Header   -->
@@ -13,7 +20,8 @@
       <div class="page-content">
         <div class="page-header">
           <div class="container-fluid">
-          @include('admin.body')
+         
+          <h1>Welcome To Admin Dashboard</h1>
       </div>
     </div>
     <!-- JavaScript files-->
