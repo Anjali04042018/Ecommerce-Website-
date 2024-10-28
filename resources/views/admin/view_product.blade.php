@@ -51,6 +51,7 @@
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Image</th>
+                    <th>Delete</th>
                 </tr>
                 @foreach($product as $products)
                 <tr>
@@ -62,7 +63,9 @@
                     <td>
                         <img height="  120" src="products/{{$products->image}}" alt="">
                     </td>
-
+                    <td>
+                    <a class="btn btn-danger" href="{{ url('delete_product', $products->id) }}" onclick="confirmation(event)">Delete</a>
+                    </td>
                 </tr>
                 @endforeach
             </table>
@@ -83,5 +86,6 @@
     <script src="{{asset('admincss/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
     <script src="{{asset('admincss/js/charts-home.js')}}"></script>
     <script src="{{asset('admincss/js/front.js')}}"></script>
+    @include('admin.js')
   </body>
 </html> 
