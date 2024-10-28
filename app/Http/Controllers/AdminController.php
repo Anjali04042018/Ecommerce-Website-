@@ -80,6 +80,13 @@ class AdminController extends Controller
 
     public function delete_product($id){
         $data = Product::find($id);
+
+        $image_path = public_path('products/.$data->image');
+
+        if(file_exists($image_path)){
+            unlink($image_path);
+        }
+
         $data -> delete();
         session()->flash('success', 'Product Deleted Successfully.');
 
