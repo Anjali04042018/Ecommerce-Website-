@@ -23,6 +23,7 @@
         td{
             border:1px solid skyblue;
             text-align:center;
+            color:white;
         }
         h1{
             color:white;
@@ -65,8 +66,12 @@
                 </tr>
                 @endforeach
             </table>
-        </div>
 
+          
+        </div>
+        <div class="div_deg">
+            {{$product -> links()}}
+        </div>
       </div>
     </div>
     <!-- JavaScript files-->
