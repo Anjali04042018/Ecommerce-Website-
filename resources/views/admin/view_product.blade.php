@@ -51,6 +51,7 @@
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Image</th>
+                    <th>Update</th>
                     <th>Delete</th>
                 </tr>
                 @foreach($product as $products)
@@ -64,8 +65,12 @@
                         <img height="  120" src="products/{{$products->image}}" alt="">
                     </td>
                     <td>
+                        <a class="btn btn-success" href="{{ url('update_product', $products->id)}}">Edit</a>
+                    </td>
+                    <td>
                     <a class="btn btn-danger" href="{{ url('delete_product', $products->id) }}" onclick="confirmation(event)">Delete</a>
                     </td>
+
                 </tr>
                 @endforeach
             </table>
