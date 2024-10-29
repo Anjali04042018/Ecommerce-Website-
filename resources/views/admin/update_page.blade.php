@@ -4,7 +4,7 @@
     @include('admin.css')
 
 <style>
-  h1{
+  h2{
     color:white;
     text-align:center;
   }
@@ -17,6 +17,7 @@
     display: inline-block;
     width:200px;
     padding:20px;
+    color:white;
   }
   input[type='text']{
     width:300px;
