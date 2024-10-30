@@ -24,7 +24,9 @@
                 <div style="padding:10px;">
                   <a class="btn btn-danger" href="{{url('product_details',
                   $products->id)}}">Details</a>
+                  <a class="btn btn-info" href="{{url('add_cart',$products->id)}}">Add To Cart</a>
                 </div>
+
         </div>
     </div>
 @endforeach
