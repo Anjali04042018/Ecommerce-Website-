@@ -67,7 +67,7 @@
         </div>
         <div class="div_gap">
             <label for="">Receiver Phone</label>
-            <input type="text" name= "name" value="{{Auth::user()->phone}}">
+            <input type="text" name= "phone" value="{{Auth::user()->phone}}">
         </div>
         <div class="div_gap">
             <input class="btn btn-primary" type="submit" value="Place Order">
