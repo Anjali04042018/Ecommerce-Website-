@@ -12,7 +12,7 @@
   </head>
   <body>
    <!-- Header   -->
-    @include('admin.header')
+    @include('admin.header') 
    
     <!-- Sidebar Navigation-->
      @include('admin/sidebar')
@@ -22,6 +22,7 @@
           <div class="container-fluid">
          
           <h1>Welcome To Admin Dashboard</h1>
+          @include('admin.body')
       </div>
     </div>
     <!-- JavaScript files-->
