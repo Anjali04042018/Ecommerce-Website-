@@ -54,7 +54,7 @@
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Lovely Professional University</span>
+                <span>Chhapra Bihar</span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
@@ -62,7 +62,7 @@
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> anjaligp1210@gmail.com</span>
+                <span>support@giftos.com</span>
               </a>
             </div>
           </div>

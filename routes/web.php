@@ -77,3 +77,9 @@ Route::get('/delivered/{id}', [AdminController::class, 'delivered']);
 Route::get('/print_pdf/{id}', [AdminController::class, 'print_pdf']);
 
 route::get('/myorders',[HomeController::class, 'myorders']);
+
+route::get('shop',[HomeController::class,'shop']);
+
+route::get('why',[HomeController::class,'why']);
+
+route::get('contect',[HomeController::class,'contect']);

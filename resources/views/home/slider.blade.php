@@ -12,8 +12,7 @@
                         Gift Shop
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
-                      </p>
+                      The ultimate destination for thoughtful and unique gifts! Whether you’re celebrating a birthday, anniversary, holiday, or simply want to make someone smile, we have something special for every occasion.                      </p>
                       <a href="contact.html">
                         Contact Us
                       </a>
