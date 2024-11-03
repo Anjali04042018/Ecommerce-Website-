@@ -75,3 +75,5 @@ Route::get('/on_the_way/{id}', [AdminController::class, 'on_the_way']);
 Route::get('/delivered/{id}', [AdminController::class, 'delivered']);
 
 Route::get('/print_pdf/{id}', [AdminController::class, 'print_pdf']);
+
+route::get('/myorders',[HomeController::class, 'myorders']);
