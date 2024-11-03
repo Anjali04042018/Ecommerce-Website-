@@ -95,8 +95,8 @@ class AdminController extends Controller
         return redirect() -> back();
     }
 
-    public function update_product($id){
-        $data = Product::find($id);
+    public function update_product($slug){
+        $data = Product::where('slug',$slug)->get()->first();
         $category = Category::all();
         return view('admin.update_page', compact('data','category'));
     }

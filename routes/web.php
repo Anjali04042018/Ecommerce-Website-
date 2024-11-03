@@ -53,7 +53,7 @@ route::get('view_product',[AdminController::class,'view_product']);
 
 route::get('delete_product/{id}',[AdminController::class,'delete_product']);
 
-route::get('update_product/{id}',[AdminController::class,'update_product']);
+route::get('update_product/{slug}',[AdminController::class,'update_product']);
 route::post('edit_product/{id}',[AdminController::class,'edit_product']);
 
 route::get('product_search',[AdminController::class,'product_search']);
